@@ -4,7 +4,7 @@ This repo will be a collection of the notes that I obtain during my bootcamp stu
 
 ## Table of Contents
 
-1. [Developer Essentials] (~/DigitalCrafts/classes/developer-fundamentals)
+1. [Developer Essentials](~/DigitalCrafts/classes/developer-fundamentals)
 2. Python 
 3. Front-End Foundation
 4. UI Basics
