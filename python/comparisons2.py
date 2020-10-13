@@ -9,7 +9,5 @@ else:
     print("These strings are not the same")
 
 
-if name == compare2:
-    print("Of course these are the Same!")
-else:
+if name != compare2:
     print("NO These strings are different!")
