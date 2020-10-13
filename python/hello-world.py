@@ -1,3 +1,5 @@
+#This will print Hello World
 print("Hello World")
 
-print("Goodbye World")
+# This will say Goodbye World
+print("Goodby World")
