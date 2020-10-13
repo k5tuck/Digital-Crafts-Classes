@@ -12,4 +12,4 @@ This repo will be a collection of the notes that I obtain during my bootcamp stu
 6. [Agile](https://github.com/k5tuck/Digital-Crafts-Classes/tree/main/agile)
 7. [Backend Foundations](https://github.com/k5tuck/Digital-Crafts-Classes/tree/main/backend_foundations)
 8. [Databases](https://github.com/k5tuck/Digital-Crafts-Classes/tree/main/databases)
-9. [Blogs]((https://github.com/k5tuck/Digital-Crafts-Classes/tree/main/blogs)
+9. [Blogs](https://github.com/k5tuck/Digital-Crafts-Classes/tree/main/blogs)
