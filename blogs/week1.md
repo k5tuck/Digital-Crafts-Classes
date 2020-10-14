@@ -76,8 +76,20 @@ Booleans are either True or False values.
 
 ```Python
 1 == 1 # The == operator compares whether these two numbers equal each other or not
-1 >= 2 # The >= compares 
-1 <= 2
-1 > 2
-1 < 2 
+1 >= 2 # The >= compares whether 1 is greater than or equal to 2
+1 <= 2 # The <= compares whether 1 is less than or equal to 2
+1 > 2 # This will compare whether 1 is greater than 2 or not
+1 < 2 # This will compare whether 1 is less than 2 or not
+```
+
+### If, Elif, and Else
+
+If and Else statements can be used to create "branches" that will direct the flow of your code.
+```Python
+if 1 >= 2:
+    print("This shouldn't be printing.")
+elif 1 == 2:
+    print("This also should not work.")
+else:
+    print("This was the only option left.")
 ```
