@@ -13,3 +13,4 @@ This repo will be a collection of the notes that I obtain during my bootcamp stu
 7. [Backend Foundations](https://github.com/k5tuck/Digital-Crafts-Classes/tree/main/backend_foundations)
 8. [Databases](https://github.com/k5tuck/Digital-Crafts-Classes/tree/main/databases)
 9. [Blogs](https://github.com/k5tuck/Digital-Crafts-Classes/tree/main/blogs)
+10. [End of Lesson Exercises](https://github.com/k5tuck/Digital-Crafts-Classes/tree/main/end_of_lesson_exercises)
