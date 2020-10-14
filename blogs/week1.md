@@ -1,10 +1,18 @@
 # Week 1
 
-## Python Basics Covered
+## Topics Basics Covered
+### Developer Fundamentals
+1. Command Line
+2. File System
+3. Git Basics
+5. Markdown
+
+### Python
 1. print()
 2. variables
 3. types
 5. comparisons
+6. input
 
 ## Explanation
 ### Print() Function
@@ -74,6 +82,8 @@ Booleans are either True or False values.
 
 ### Comparisons
 
+These are methods that will allow us to compare different values against each other.
+
 ```Python
 1 == 1 # The == operator compares whether these two numbers equal each other or not
 1 >= 2 # The >= compares whether 1 is greater than or equal to 2
@@ -93,3 +103,38 @@ elif 1 == 2:
 else:
     print("This was the only option left.")
 ```
+
+### Input
+
+Input allows you to receive data from a user
+```Python
+name = input("Please enter your name: ")
+print("Hello %s!" %name)
+
+```
+
+### Nested Blocks
+
+It's possible for blocks of code to be nested inside other code. For example:
+```Python
+name = "Wilema"
+if len(name) > 5:
+    print("Hello %s !" %name)
+    if name == "Wilema"
+        print("Your name is the absolute greatest!")
+    else:
+        print("Your name is cool too!")
+else:
+    print("Your name is too short.")
+```
+
+### Loops
+
+Loops can be used to iterate through blocks of code multiple times without having to copy and paste previous code.
+
+```Python
+
+```
+
+### Error Handling
+
