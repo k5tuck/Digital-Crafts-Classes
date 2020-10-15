@@ -27,3 +27,8 @@ while valid:
         print("You have entered a number outside of the range. Please try again.")
         break
         # valid = False
+
+        #Alternatively 
+
+day_num = int(input("Day (0-6)?  "))
+days = ["Sundays", ]
