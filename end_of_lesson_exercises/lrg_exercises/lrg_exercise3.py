@@ -5,7 +5,7 @@ valid = True
 
 def play_game():
     attempts = 5
-    print("Please guess the number between 1 and 10. You will have %i attempts." %attempts)
+    print("\nPlease guess the number between 1 and 10. You will have %i attempts." %attempts)
     valid = True
     while valid:
         while True:
