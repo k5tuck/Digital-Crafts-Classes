@@ -8,7 +8,12 @@ def play_game():
     print("Please guess the number between 1 and 10. You will have %i attempts." %attempts)
     valid = True
     while valid:
-        guess = int(input("Please enter the number that you believe is the answer:  "))
+        while True:
+            try:
+                guess = int(input("Please enter the number that you believe is the answer:  "))
+                break
+            except ValueError:
+                print("Sorry!! You did not submit a number!")
         if attempts > 1 and attempts < 6:
             if guess == secret_number:
                 print("You win!!")

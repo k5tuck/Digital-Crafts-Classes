@@ -133,8 +133,26 @@ else:
 Loops can be used to iterate through blocks of code multiple times without having to copy and paste previous code.
 
 ```Python
-
+i = 1
+while i <= 100:
+    if i % 3 == 0 and i % 5 == 0:
+        print("FizzBuzz")
+    elif i % 3 == 0:
+        print("Fizz")
+    elif i % 5 == 0:
+        print("Buzz")
+    else:
+        print(i)
+    i += 1
 ```
 
 ### Error Handling
 
+```Python
+while True:
+    try:
+        guess = int(input("Please enter the number that you believe is the answer:  "))
+        break
+    except ValueError:
+        print("Sorry!! You did not submit a number!")
+```
