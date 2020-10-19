@@ -1,8 +1,7 @@
 
 numbers = [6,7,8,4,312,109,878]
-
+biggest = 0
 for num in numbers:
-    biggest = 0
     if biggest < num:
         biggest = num
     else:
