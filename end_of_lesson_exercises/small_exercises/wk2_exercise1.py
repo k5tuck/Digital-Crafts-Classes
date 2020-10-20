@@ -3,3 +3,6 @@ num = 0
 for k in numbers:
    num += k
 print(num)
+
+#Alternative built-in sum function
+print(sum(numbers))

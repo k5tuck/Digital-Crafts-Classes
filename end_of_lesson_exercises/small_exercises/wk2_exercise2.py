@@ -7,3 +7,10 @@ for num in numbers:
     else:
         pass
 print(biggest)
+
+#Alternative using sort method
+numbers.sort()
+print(numbers[-1])
+
+#Alternative
+print(max(numbers))

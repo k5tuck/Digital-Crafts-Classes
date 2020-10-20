@@ -6,3 +6,6 @@ for num in numbers:
     multiplied = factor * num
     new_list.append(multiplied)
 print(new_list)
+
+print([num * factor for num in numbers])
+
