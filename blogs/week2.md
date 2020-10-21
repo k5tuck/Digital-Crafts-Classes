@@ -45,5 +45,20 @@ movie_dict(diff_movies)
 
 ### Classes
 ```Python
+class Vehicle:
+    def __init__ (self, top_speed, acceleration, wheels=4):
+        self.wheels = wheels
+        self.top_speed = top_speed
+        self.acceleration = acceleration
+        self.speed = 0
+        self.position = 0
+    
+    def move(self, move):
+        self.accelerate
+        self.position += self.speed
 
+    def accelerate(self, acceleration):
+        self.speed += acceleration
+        if self.speed >= self.top_speed:
+            self.speed = self.top_speed #self.speed NOT accelerate
 ```

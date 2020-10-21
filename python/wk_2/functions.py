@@ -96,14 +96,14 @@
 # holla("just doesn't want to be short and green.")
 
 # Exercise 7
-name = "Kevin"
-def name_alter(a):
-    name = a
-    return name
+# name = "Kevin"
+# def name_alter(a):
+#     name = a
+#     return name
 
-name1 = name_alter("Jeff")
-print(name1)
-name2 = name_alter("Tiota")
-print(name2)
-name3 = name_alter("Natalie")
-print(name3)
+# name1 = name_alter("Jeff")
+# print(name1)
+# name2 = name_alter("Tiota")
+# print(name2)
+# name3 = name_alter("Natalie")
+# print(name3)
