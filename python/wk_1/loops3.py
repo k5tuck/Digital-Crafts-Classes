@@ -1,4 +1,4 @@
-username = input("Please input the username that you woulld like to use:  ")
+username = input("Please input the username that you would like to use:  ")
 username_pass = input("Please enter the password you would like to use:  ")
 
 attempts = 2
