@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  height: 700px;
+  /* align-items: center;
+  justify-content: center;
+  flex-grow: 1; */
+}
+.column {
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+}
+.number {
+  font-size: 80px;
+}
+.red {
+  background-color: lightcoral;
+}
+.blue {
+  background-color: lightblue;
+}
+.yellow {
+  background-color: yellow;
+}
+body {
+  margin: 0;
+}

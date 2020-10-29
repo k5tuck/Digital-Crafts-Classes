@@ -1,0 +1,12 @@
+.container {
+  position: relative;
+  width: 100%;
+}
+.text {
+  position: absolute;
+  padding: 5px;
+  font-weight: bold;
+  background-color: lightblue;
+  top: 115px;
+  left: 50px;
+}

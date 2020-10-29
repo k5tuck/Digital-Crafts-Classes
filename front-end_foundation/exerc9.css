@@ -1,0 +1,16 @@
+.firstdiv {
+  padding: 10px;
+  background: red;
+  border: 1px;
+}
+
+.seconddiv {
+  padding: 10px 100px;
+  border: 3px thick double red;
+}
+
+.thirddiv {
+  padding: 10px 3px 6px 20px;
+  background: royalblue;
+  margin: 100px 4px 4px 4px;
+}

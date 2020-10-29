@@ -1,0 +1,24 @@
+h1 {
+  font-family: Georgia;
+}
+
+.active {
+  border: solid black;
+}
+
+.completed {
+  text-decoration-line: line-through;
+}
+
+li {
+  background-color: royalblue;
+}
+
+body {
+  font-family: arial;
+}
+
+section {
+  font-weight: bold;
+  padding: ;
+}

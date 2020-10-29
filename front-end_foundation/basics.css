@@ -1,0 +1,29 @@
+h1 {
+  font-weight: 300px;
+  font-size: 100px;
+}
+
+body {
+  background-color: deepskyblue;
+}
+
+a {
+  color: black;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 30px;
+  padding-right: 10px;
+}
+
+a:hover {
+  color: goldenrod;
+}
+
+.main-content {
+  background-color: green;
+}
+
+p {
+  text-align: inherit;
+  text- ;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
