@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSSLibrary Exercise</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+    <link rel="stylesheet" href = "https://cdnjs.com/libraries/bttn.css">
+    <style>
+        .container{
+            display: flex;
+            width: 50%;
+        }
+        .nav{
+            list-style: none;
+        }
+        .input{
+            flex-wrap: wrap;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hello! This is My temp Website</h1>
+        <div class = "nav">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+    </header>
+    <div class = "container">
+        <label for = "name">Name</label>
+        <div class = "input">
+            <input id = "name" name = "name" placeholder = "Please Enter Your Name">
+            <button class="bttn-gradient bttn-md bttn-primary">Submit</button>
+        </div>
+        <label for = "email">Email</label>
+        <div class = "input">
+            <input id = "email" placeholder = "Please enter your email">
+        </div>
+    </div>
+</body>
+</html>
