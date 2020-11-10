@@ -48,3 +48,27 @@ The below code will change a specific attribute in style. If CSS element is hyph
 header.style.color = "lightgreen"
 header.style.borderBottom = "5px thick double lightblue"
 ```
+
+### Classes
+
+You can add classes to an element using the dot notation classList method.
+
+```Javascript
+let footer = dcoument.querySelector("footer")
+footer.classList.add("randomName", "btn")
+footer.classList.remove("btn")
+```
+
+```Javascript
+let myInterval = setInterval(function(){
+      myButton.classList.toggle("hidden")
+  }, //timeinterval)
+)
+
+//Replace Class
+let footer = document.querySelector("footer");
+footer.classList.replace("highlighted","primary")
+
+let res = footer.classList.contains("foo-bar")
+console.log(res)
+```
