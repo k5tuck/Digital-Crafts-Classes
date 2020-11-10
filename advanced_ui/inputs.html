@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Exercise</title>
+    <style>
+        /* span{
+            border-bottom: solid 1px gold;
+        }
+        p {
+            width: 80rem;
+            position: relative;
+        }
+        .hamburger-radio{
+            margin: 40px;
+            position: relative;
+            left: 60px;
+        }
+        label {
+            color: #B4886B;
+            font-weight: bold;
+            display: block;
+            width: 150px;
+            float: left;
+        } */
+    </style>
+</head>
+<body>
+    <form id="login">
+        <label for = "username">Username</label>
+        <input id="username" type="text" name="username" placeholder="Username">
+        <label for = "password">Password</label>
+        <input id="password" type="password" name="password"  placeholder="Password">
+        <label for="newuser">New User</label>
+        <input id="newuser" type="checkbox" name="newuser">
+        <label for="boss">Supreme Boss</label>
+        <input id="boss" type="checkbox" name="boss">
+        <button id="submit">Login</button>
+    </form>
+    <script>
+        let loginform = document.querySelector("#login")
+        loginform.addEventListener("submit", evt => {
+            evt.preventDefault()
+            let results = [...evt.target.elements]
+            .filter(param=>param.name)
+            .map(p=>({name:p.name, value:p.value}))
+            console.log(results)
+            let bdy = document.querySelector("body")
+            let d = document.createElement("div")
+            bdy.append(d)
+            for (i=0;i < results.length;i++){
+            d.append(`${results[i].name} : ${results[i].value}
+
+            `)}
+        })
+        let date = document.createElement("input")
+        date.setAttribute("type", "date")
+        date.setAttribute("name", "date")
+        let email = document.createElement("input")
+        email.setAttribute("type", "email")
+        email.setAttribute("name", "email")
+        email.setAttribute("placeholder", "Email")
+        loginform.append(date, email)
+
+    </script>
+    <!--
+    <p>
+        <span>Terms of Service</span>
+        Qui est ullamco magna duis proident excepteur consectetur quis culpa enim mollit. Ad adipisicing laborum veniam laboris
+        voluptate. Fugiat enim ut ut reprehenderit ad eu.
+        
+        Quis quis nostrud laborum exercitation dolore ipsum incididunt exercitation eu magna. Sunt veniam aliqua exercitation
+        sint aute ad quis non labore aliquip do exercitation. Magna ea in amet eiusmod cillum qui velit magna nisi id commodo.
+        Occaecat incididunt voluptate consectetur minim veniam tempor nulla incididunt dolore. Commodo enim et dolore est do.
+        Aliquip cupidatat in veniam labore veniam eiusmod occaecat. Laborum incididunt labore non non esse incididunt qui aute
+        amet sit tempor incididunt.
+        
+        Velit id magna amet do proident officia et. Do deserunt laboris aute nisi nostrud aute deserunt proident est esse. Quis
+        ad proident qui voluptate pariatur minim veniam veniam occaecat irure cupidatat reprehenderit. Eu ipsum Lorem sint
+        adipisicing Lorem ipsum Lorem ullamco est duis deserunt quis. Voluptate incididunt adipisicing amet adipisicing commodo.
+    </p>
+    <label for = "terms of service">Agree</label>
+    <input id="terms" type="checkbox" name="terms" value="Iagree">
+
+    <div class = "hamburger-checkbox">
+        <label for="mustard">Mustard</label>
+        <input id = "mustard" name="hamburger" type="checkbox" value="mustard">
+        <label for="mayonnaise">Mayo</label>
+        <input id = "mayonnaise" name="hamburger" type="checkbox" value="mayonnaise">
+        <label for="lettuce">Lettuce</label>
+        <input id = "lettuce" name="hamburger" type="checkbox" value="lettuce">
+        <label for="tomatoes">Tomatoes</label>
+        <input id = "tomatoes" name="hamburger" type="checkbox" value="tomatoes">
+        <label for="onions">Onions</label>
+        <input id = "onions" name="hamburger" type="checkbox" value="onions">
+    </div>
+    <div class = "hamburger-radio">
+        <label for="mustardb">Mustard</label>
+        <input id = "mustardb" name="hamburger" type="radio" value="mustard">
+        <label for="mayonnaiseb">Mayo</label>
+        <input id = "mayonnaiseb" name="hamburger" type="radio" value="mayonnaise">
+        <label for="lettuceb">Lettuce</label>
+        <input id = "lettuceb" name="hamburger" type="radio" value="lettuce">
+    </div>
+
+    <label for="choices">Final Choices</label>
+    <select id="choices" name="choices">
+        <option value="">--Please Choose Your Final Choice--</option>
+        <optgroup label="Condiments" id="con">
+            <option value="mayo">Mayonnaise</option>
+            <option value="mustard">Mustard</option>
+            <option value="ketchup">Ketchup</option>
+            <option value="a1sauce">A1-Steak Sauce</option>
+        </optgroup>
+        <optgroup label="Vegetables" id="veg">
+        </optgroup>
+    </select>
+    <script>
+        let next = document.querySelector("#veg")
+        let tom = document.createElement("option")
+        let lett = document.createElement("option")
+        tom.value = "tomatoe"
+        tom.innerText = "Tomatoes"
+        lett.value = "lettuce"
+        lett.innerText = "Lettuce"
+        next.append(tom, lett)
+    </script> -->
+</body>
+</html>
+
+<!-- 
+    email
+    password
+    text
+    color
+
+
+-->
