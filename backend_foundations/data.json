@@ -1,1 +1,8 @@
-[{"name":"Clint", "age":29}, {"name":"Anna", "age":27}, {"name":"Olivia", "age":11}]
+// [{"name":"Clint", "age":29}, {"name":"Anna", "age":27}, {"name":"Olivia", "age":11}]
+
+[
+    { firstName: "Joshua", lastName: "Osorio", email: "joshua@gmail.com" },
+    { firstName: "Alina", lastName: "Rojas", email: "alina@gmail.com" },
+    { firstName: "Matthew", lastName: "Lopez", email: "matthew@gmail.com" }
+]
+  
