@@ -1,6 +1,7 @@
 # Directories
+node_modules
 ../Debug_Practice
 /python/__pycache__
-node_modules
+
 
 #Files

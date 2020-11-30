@@ -15,7 +15,6 @@ const typeCheck = (req, res) => {
 const homePage = (req, res) => {
   let header = <div>Homeeee</div>;
   res.send(header);
-  
 };
 const returnTime = (req, res) => {
   const time = new Date.now();
@@ -23,11 +22,9 @@ const returnTime = (req, res) => {
   next();
 };
 
-const finalCall = (req, res) => {
-  
-};
+const finalCall = (req, res) => {};
 
-app.get("/", returnTime, homePage;
+app.get("/", returnTime, homePage);
 app.get("/api");
 app.get("/api/:type", typeCheck);
 
